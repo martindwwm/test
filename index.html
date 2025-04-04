@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Test: HTML, CSS et JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">A Propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1>Bienvenue dans l'antre des hackers</h1>
+      <p>Ici, nous hackons avec du HTML, du CSS et du JavaScript ! Oh yeah !</p>
+
+      <a href="#"
+        ><button type="button" class="cta-button">En Savoir -</button></a
+      >
+    </header>
+    <main>
+      <section>
+        <h2>Section 1</h2>
+        <div id="personnes-container" class="container">
+          <div class="card-container"></div>
+          <!-- Les cartes des personnes seront affichées ici -->
+        </div>
+      </section>
+      <section>
+        <h2>Section 2</h2>
+        <div class="container">
+          <!-- formulaire d'objet personne avec nom prenom age profession , photo de profil, date de naissance numero de securité social, numero de carte bancaire etc... -->
+          <form>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="firstName" required />
+
+            <label for="surname">Prénom:</label>
+            <input type="text" id="surname" name="lastName" required />
+
+            <label for="age">Âge:</label>
+            <input type="number" id="age" name="age" required />
+
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" name="profession" required />
+
+            <label for="dob">Date de naissance:</label>
+            <input type="date" id="dob" name="birthDay" required />
+
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Mon Test.</p>
+      <ul class="social-media">
+        <li>
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/assets/app.js"></script>
+  </body>
+</html>
