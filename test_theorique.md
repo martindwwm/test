@@ -40,7 +40,7 @@ NB: Les réponses doivent être courtes et concises.
      _Réponse :_ appliquer une couleur en arriere plan
 
 12. **Expliquez comment fonctionne `display: flex` et citez deux propriétés associées.**  
-     _Réponse :_ il dispose les elements cotes a cotes sur une meme ligne il y'a egalement flx-column flex-wrap
+     _Réponse :_ il dispose les elements cotes a cotes sur une meme ligne il y'a egalement flex-column flex-wrap
 
 ## JavaScript
 
@@ -90,7 +90,7 @@ NB: Les réponses doivent être courtes et concises.
      _Réponse :_ document.getElementById
 
 28. **Qu'est-ce qu'un objet en JavaScript et comment accéder à ses propriétés ?**  
-     _Réponse :_ un objet est une instance d'une classe
+     _Réponse :_ un objet est une instance d'une classe on accède a ses données via la dot notation
 
 29. **Pourquoi est-il important de valider les données d'un formulaire avant de les traiter ?**  
-     _Réponse :_ pour eviter de se faire pirater
+     _Réponse :_ pour eviter tout type d'injection non sécurisées
